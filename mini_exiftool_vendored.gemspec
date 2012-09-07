@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["supapuerco@gmail.com"]
   gem.description   = "A meta-gem for mini_exiftool that bundles a version of the Exiftool application."
   gem.summary       = "A meta-gem for mini_exiftool that bundles a version of the Exiftool application."
-  gem.homepage      = "https://github.com/supapuerco/mini_exiftool_vendored"
+  gem.homepage      = "https://github.com/wilg/mini_exiftool_vendored"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
