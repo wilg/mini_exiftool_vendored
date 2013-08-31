@@ -7,4 +7,4 @@ def gem_root
 end
 
 # Vendor it!
-MiniExiftool.command = File.join gem_root, "vendor", "Image-ExifTool-8.97", "exiftool"
+MiniExiftool.command = File.join gem_root, "vendor", "Image-ExifTool-9.27", "exiftool"
